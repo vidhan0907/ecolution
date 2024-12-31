@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecolution 2.0 - IAYP Club</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="logo.png" type="image/png"> <!-- Favicon link -->
+</head>
+<body>
+    <style>
+        /* Event Description Styles */
+.event-description {
+    background-color: #fefefe;  /* Light background for contrast */
+    color: #000000;  /* Text color */
+    padding: 20px;  /* Spacing around the text */
+    border-radius: 8px;  /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);  /* Subtle shadow for depth */
+    margin: 20px 0;  /* Space between paragraphs */
+    font-size: 16px;  /* Base font size */
+    line-height: 1.6;  /* Increased line height for readability */
+}
+
+/* Event Title Styles */
+.event-title {
+    font-size: 24px;  /* Larger font size for titles */
+    color: #92219d;  /* Color to match the theme */
+    margin-bottom: 10px;  /* Space below titles */
+    text-align: center;  /* Center-align titles */
+    font-weight: bold;  /* Bold for emphasis */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .event-description {
+        font-size: 14px;  /* Adjust font size for smaller screens */
+    }
+
+    .event-title {
+        font-size: 20px;  /* Adjust title size for smaller screens */
+    }
+}
+
+        /* Gallery Section */
+.gallery {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.gallery h2 {
+    color: #92219d;
+    margin-bottom: 40px;
+}
+
+.gallery-images {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.gallery-images img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.gallery-images img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+}
+
+    </style>
+    <!-- Header -->
+    <header>
+        <div class="logo">
+            <img src="logo.png" alt="IAYP Logo">
+        </div>
+        <nav class="navbar">
+            <ul>
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#events">Events</a></li>
+                <li><a href="index.html#committee">Core Committee</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Gallery Section -->
+    <section class="gallery">
+        <h2>Poster Making Event Gallery</h2>
+        <div class="event-description">
+            <p>The Poster Making event allowed participants to channel their creativity and visual storytelling abilities. Centered around themes of peace, justice, and strong institutions, students expressed their ideas through striking designs and compelling visuals. With vibrant colors and thought-provoking messages, this event provided a platform for young artists to convey powerful concepts in an artistic and impactful manner. It was a beautiful celebration of creativity and advocacy.</p>
+        </div>
+        
+        <div class="gallery-images">
+            <img src="sports-maze1.jpg" alt="Sports-Maze Event 1">
+            <img src="sports-maze2.jpg" alt="Sports-Maze Event 2">
+            <img src="sports-maze3.jpg" alt="Sports-Maze Event 3">
+            <!-- Add more images as needed -->
+        </div>
+    </section>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top-btn">↑</button>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 Ecolution 2.0. All rights reserved.</p>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
